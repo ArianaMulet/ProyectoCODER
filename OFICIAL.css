@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.bodyHome{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 30% 30% 20%;
+    grid-template-areas: 
+    "header"
+    "menu"
+    "main"
+    "footer"
+    ;
+}
+
+#bannerSmart{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100%;
+    height: 100%;
+}
+.listaHome{
+    display: flex;
+    flex-direction: row;
+    grid-area: menu;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 130%;
+}
+.itemsHome{
+    list-style-type: none;
+    padding: 2%;
+}
+.itemsHome:hover{
+    transform: scale(2);
+}
+.pags{
+    text-decoration: none;
+    color: black;
+}
+.frase{
+    display: flex;
+    grid-area: main;
+    width: 100%;
+    height: 100%;
+    background-color: #9bbbbc;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 180%;
+    line-height: 2;
+    font-style: italic;
+    text-align: center;
+    justify-content: center;
+}
+#frase{
+    padding: 5%;
+    margin: 5%;
+}
+footer{
+    background-color: black;
+}
+.footerHome{
+    grid-area: footer;
+    font-size: 90%;
+    color: white;
+    border: none;
+}
+.seguinos{
+    margin: 3%; 
+}
+.redesSociales{
+    text-decoration: none;
+    color: white;
+}
+.inputs{
+    font-family: 'Poppins', sans-serif;
+}
+.inicio{
+    font-weight: 600;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.inicio1{
+    grid-area: inicio;
+    color: black;
+    padding: 4%;
+}
+.paginas{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    font-size: 115%;
+    color: black;
+    align-items: center;
+    justify-content: right;
+}
+.paginas234{
+    grid-area: paginas;
+    color: black;
+    padding: 3%;
+}
+.mainUno{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 35% 35%;
+    grid-template-areas:
+    "titulo titulo"
+    "presentacion logo"
+    "foto presentacionYo"
+    ;
+    margin-bottom: 5%;
+}
+.headerUno{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    grid-template-areas: "inicio paginas";
+
+    width: 100%;
+    background-image: linear-gradient(to bottom, #ff813b, white);
+    align-items: center;
+}
+.tituloUno{
+    grid-area: titulo;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: left;
+}
+.titulos{
+    color: #ff813b;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.presentacion{
+    grid-area: presentacion;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+    align-items: center;
+    justify-items: center;
+}
+.presentacionUno{
+    color: black;
+    margin-left: 10%;
+    margin-right: 8%;
+}
+.logo{
+    grid-area: logo;
+    width: 100%;
+    height: 100%;
+}
+.presentacionYo{
+    grid-area: presentacionYo;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+    align-items: center;
+    justify-items: center;
+}
+#presentacionYo{
+    color: black;
+    margin-right: 2%;
+    margin-right: 10%;
+
+}
+.foto{
+    display: flex;
+    grid-area: foto;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+}
+#fotoYo{
+    width: 60%;
+    margin-left: 15%;
+}
+.mainDos{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 100%;
+    grid-template-areas: 
+    "titulo titulo"
+    "servicios fotos";
+    margin-bottom: 5%;
+}
+.headerDos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    grid-template-areas: "inicio paginas";
+    background-image: linear-gradient(to bottom, #ff813b, white);
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.inicio2{
+    grid-area: inicio;
+    color: black;
+    padding: 4%;
+}
+.paginas134{
+    grid-area: paginas;
+    color: black;
+    padding: 3%;
+}
+
+.tituloDos{
+    grid-area: titulo;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: left;
+}
+.servicios{
+    grid-area: servicios;
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+.subtitulos{
+    font-size: 80%;
+    font-weight: bold;
+    margin-left: 5%;
+}
+ul{
+    list-style-type: none;
+}
+.li2{
+    font-size: 75%;
+    font-weight: 400;
+    margin-left: 5%;
+    line-height: 2;
+}
+.fotos{
+    grid-area: fotos;
+    display: flex;
+    width: 35%;
+    justify-content: center;
+    flex-direction: column;
+}
+.mainTres{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 70%;
+    grid-template-areas:
+    "titulo"
+    "clientes"
+    ;
+}
+.headerTres{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    grid-template-areas: "inicio paginas";
+    background-image: linear-gradient(to bottom, #ff813b, white);
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.inicio3{
+    grid-area: inicio;
+    color: black;
+    padding: 4%;
+}
+.paginas124{
+    grid-area: paginas;
+    color: black;
+    padding: 3%;
+}
+.tituloTres{
+    grid-area: titulo;
+    display:flex;
+    width: 100%;
+    height: 100%;
+    justify-content: left;
+}
+.clientes{
+    grid-area: clientes;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cliente1{
+    display: flex;
+    height: 30%;
+}
+.cliente2{
+    height: 30%;
+    width: 30%;
+}
+.cliente3{
+    display: flex;
+    height: 30%;
+}
